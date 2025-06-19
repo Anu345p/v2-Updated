@@ -28,22 +28,26 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white opacity-90"></div>
           <Image
-            src="/images/homepagecover.png"
+            src="/images/coverpage.png"
             alt="Hero Background"
             fill
             className="object-cover"
             priority
           />
+          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         </div>
 
         <div className="container mx-auto px-4 z-10 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 0.8 }}>
             <h1 className="mb-6">
-              <span className="gradient-text">Retail, Services &amp; Amc</span>
+              <span className="gradient-text">Retail, Services &amp; Amc for Industries</span>
               <br />
-              for Industries
+              
             </h1>
-            <p className="max-w-2xl mx-auto mb-8 text-blue-600 ">
+            <p className="max-w-2xl mx-auto mb-8  text-white" >
               Partner with us to power smarter governance—tech-driven solutions tailored for transparency, efficiency, and impact.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
