@@ -19,7 +19,7 @@ export default function Products() {
           >
             <h1 className="text-white mb-4">Our Products</h1>
             <p className="text-white/90 max-w-2xl mx-auto text-lg">
-              Discover our comprehensive range of high-quality color solutions for various industries.
+              Smart tech, secure spaces, and seamless solutions from PCs to printers, CCTV to medical gear, we’ve got it all.
             </p>
           </motion.div>
         </div>
@@ -39,30 +39,71 @@ export default function Products() {
               Product <span className="gradient-text">Services</span>
             </h2>
             <p className="max-w-2xl mx-auto">
-              At ColourShade Enterprises, we offer a wide range of premium products.
+              From setup to support office, IT, or hygiene we power your space with reliable, ready-to-go services.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "An Product",
-                description: "High-performance paints for industrial applications.",
-                image: "/images/product.jpg",
-                link: "#industrial-paints",
+                title: "All in One PC",
+                description: "Intel Core i3/i5/i7 • 1 TB HDD + 256 GB SSD • 23.8″ FHD non-touch display (per client spec) • 5 year onsite warranty",
+                image: "/images/AIO.png",
+              },  
+              {
+                title: "Office Stationary",
+                description: "Highlighters & markers; spiral diaries & notepads; ink & ball-point pens & pencils; registers (all quires); calculators & staplers; cello tape.",
+                image: "/images/Office Stationary.png",
               },
               {
-                title: "An Services",
-                description:
-                  "Vibrant and long-lasting dyes for the textile industry with excellent color fastness and consistency.",
-                image: "/images/services.jpg",
-                link: "#textile-dyes",
+                title: "AMC for IT & Systems",
+                description: "Manufacturer-backed repair & maintenance for systems, printers & electrical equipment—keeping your tech humming.",
+                image: "/images/AMC.png",
               },
               {
-                title: "An Promoter",
-                description: "Premium quality coatings for interior and exterior architectural uses.",
-                image: "/images/promoter.jpg",
-                link: "#architectural-coatings",
+                title: "Multi Function Printers and Scanners",
+                description: "Top brands (Brother, Canon, HP, Konica) • MFT / ADF / Dot-Matrix • 20+ PPM • 64MB+ memory",
+                image: "/images/MFPS.png",
+              },
+              {
+                title: "Office Furniture & Cabin Designing",
+                description: "Executive chairs, cabins, visitor seating, curtains, sofas, lockers, almirahs & complete office décor solutions.",
+                image: "/images/OFCD.png",
+              },
+              {
+                title: " Paste Control Service",
+                description: "Pest control for insects, rats, termites, mosquitoes, bed bugs, rodents & more.",
+                image: "/images/PCS.png",
+              },
+              {
+                title: "Toner & Cartridge",
+                description: "OEM (HP/Canon/Brother) & Compatible (Prodot/Daksha) for HP, Canon, Brother, Samsung & Konica.",
+                image: "/images/T&C.png",
+              }, 
+              {
+                title: "Security Solutions",
+                description: "CP+ CCTV, IP & analog cameras, NVR/DVR, dashcams, 4G routers, speed domes, locks, SD cards, switches & storage.",
+                image: "/images/SS.png",
+              },
+              {
+                title: "Biotechnology, Analytical Instrumentation",
+                description: "Plasma Freezer, Blood Storage Cabinet, Seed Germinator Chamber, Incubator, Biosafety Cabinet, Ultrasonic Cleaner.",
+                image: "/images/BAI.png",
+              },
+              {
+                title: "Home Applinces",
+                description: "Air Conditioners (Split & Window), Refrigerators, Washing Machines & Microwaves, LED / LCD Televisions, Electric Kettles",
+                image: "/images/HA.png",
+              },
+              {
+                title: "Medical Surgical Equipment",
+                description: " Knife Handle, Blade, Cobb Elevator, Forceps, Periosteotome, Retractor, Clamp, Scissor, Suction Tube",
+                image: "/images/MSE.jpg",
+              },
+              {
+                title: "Interactive Flat Panel",
+                description: " A flat-panel display (FPD) is an electronic display used to display visual content such as text or images.1.Consumer 2.Medical & Education 3.Transportation & Business",
+                image: "/images/IFP.png",
               },
             ].map((category, index) => (
               <motion.div
@@ -84,12 +125,6 @@ export default function Products() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{category.title}</h3>
                   <p className="text-gray-600 mb-4">{category.description}</p>
-                  <Link
-                    href={category.link}
-                    className="inline-flex items-center text-primary-orange font-medium hover:underline"
-                  >
-                    Learn more <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
                 </div>
               </motion.div>
             ))}
@@ -107,9 +142,9 @@ export default function Products() {
             transition={{ duration: 0.8 }}
             className="text-center text-white"
           >
-            <h2 className="mb-6 text-white">Contact Us</h2>
+            <h2 className="mb-6 text-white">Have questions or need more details?</h2>
             <p className="max-w-2xl mx-auto mb-8">
-              ..........
+              Our team is ready to assist you with product inquiries, pricing, or custom solutions.
             </p>
             <Link
               href="/contact"

@@ -34,7 +34,7 @@ export default function Home() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
 
         <div className="container mx-auto px-4 z-10 text-center">
@@ -48,7 +48,7 @@ export default function Home() {
               
             </h1>
             <p className="max-w-2xl mx-auto mb-8  text-white" >
-              Partner with us to power smarter governance—tech-driven solutions tailored for transparency, efficiency, and impact.
+              Partnering with governments to craft bespoke tech solutions that streamline services, boost accountability, and put citizens first.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link href="/products" className="btn-primary">
@@ -83,19 +83,15 @@ export default function Home() {
                 About <span className="gradient-text">Color Shades Bharat</span>
               </h2>
               <p className="mb-4">
-                Founded with a vision in India, Color Shades Bharat has been at the
-                forefront of innovation for over two decades.
-              </p>
-              <p className="mb-6">
-                ..
-                ..
+                Founded to empower Indian institutions with smart solutions, Colour Shades Bharat has rapidly grown into a trusted name across diverse sectors.
               </p>
               <ul className="space-y-3">
                 {[
-                  "...",
-                  "....",
-                  "...",
-                  "***",
+                  "Technology Excellence",
+                  "Office & Workspace Solutions",
+                  "Medical & Scientific Equipment",
+                  "Surveillance & Security",
+                  "Nationwide Reach & Service",
                 ].map((item, index) => (
                   <motion.li
                     key={index}
@@ -163,19 +159,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "An Product",
-                description: "At ColourShade Enterprises, we craft high-quality, ROI-driven products with precision, durability, and an unwavering commitment to customer satisfaction.",
-                image: "/images/product.jpg",
+                title: "All in One PC",
+                description: "Intel Core i3/i5/i7 • 1 TB HDD + 256 GB SSD • 23.8″ FHD non-touch display (per client spec) • 5 year onsite warranty",
+                image: "/images/AIO.png",
               },
               {
-                title: "An Services",
-                description: "Beyond premium products, we deliver expert-driven services designed to empower your journey, build lasting partnerships, and exceed expectations every step of the way.",
-                image: "/images/services.jpg",
+                title: "Office Stationary",
+                description: "Highlighters & markers; spiral diaries & notepads; ink & ball-point pens & pencils; registers (all quires); calculators & staplers; cello tape.",
+                image: "/images/Office Stationary.png",
               },
               {
-                title: "An Promoter",
-                description: "As a promoter, Colour Shades empowers innovators with a launchpad for growth, supporting new ideas under Make in India to turn vision into success.",
-                image: "/images/promoter.jpg",
+                title: " AMC for IT & Systems",
+                description: "Manufacturer-backed repair & maintenance for systems, printers & electrical equipment—keeping your tech humming.",
+                image: "/images/AMC.png",
               },
             ].map((product, index) => (
               <motion.div
@@ -231,33 +227,30 @@ export default function Home() {
               Why Choose <span className="text-yellow-accent">Color Shades Bharat</span>
             </h2>
             <p className="max-w-2xl mx-auto" style={{ color: "rgba(255, 255, 255, 0.9)" }}>
-              Your trusted partner in transforming government services through technology. 
-              Our team of experts collaborates closely with government agencies to understand 
-              their unique challenges and develop tailored solutions that drive efficiency, 
-              accountability, and citizen-centric governance.
+              Your reliable partner in modernizing government operations through smart technology. We craft tailored solutions that boost efficiency, transparency, and public service impact.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                title: "....Quality",
-                description: "Highest quality standards.",
+                title: "Quality",
+                description: "We maintain the highest standards by delivering certified, reliable products backed by preventive maintenance and long-term AMC services.",
                 icon: "🏆",
               },
               {
                 title: "Servies",
-                description: "Solutions.",
+                description: "From IT & pest control AMCs to office setups and security systems, we offer complete solutions tailored to government and enterprise needs.",
                 icon: "💡",
               },
               {
                 title: "Sustainability",
-                description: "Impact.",
+                description: "We promote longevity and environmental responsibility through durable products, smart servicing, and healthcare-grade instrumentation.",
                 icon: "🦾",
               },
               {
                 title: "Customer Support",
-                description: "Dedicated team providing exceptional service and technical assistance.",
+                description: "Our expert support team ensures fast, reliable service with real-time assistance, on-site repairs, and proactive system monitoring.",
                 icon: "👥",
               },
             ].map((feature, index) => (
@@ -310,10 +303,9 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-center text-white"
           >
-            <h2 className="mb-6 text-white">Ready to Transform Your Color Experience?</h2>
+            <h2 className="mb-6 text-white">Empowering Every Workspace, One Solution at a Time</h2>
             <p className="max-w-2xl mx-auto mb-8">
-              Contact us today to discuss your color requirements and discover how Color Shades Bharat can help you
-              achieve your goals.
+              Contact us today to explore complete office, tech, and medical solutions. Colour Shades Bharat is here to power your progress.
             </p>
             <Link
               href="/contact"

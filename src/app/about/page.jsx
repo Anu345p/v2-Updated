@@ -39,24 +39,16 @@ export default function About() {
                 Our <span className="gradient-text">Story</span>
               </h2>
               <p className="mb-4">
-                Empowering Governance Through Technology
-                We specialize in delivering cutting-edge IT solutions tailored for government departments, driving efficiency, 
-                transparency, and citizen engagement. From digital transformation to cybersecurity, our robust technology
-                platforms are built to meet the complex demands of modern governance ensuring security, scalability, 
-                and operational reliability.
+                Colour Shades Bharat began with a simple goal: to empower India’s government and institutions with smart, reliable,
+                and future-ready solutions. Over the years, we have grown into a trusted partner for Central and State departments—offering
+                everything from IT infrastructure and office furnishing to biotech equipment and pest control services. With a 
+                commitment to quality, service, and innovation, we continue to evolve as a one-stop destination for organizations across sectors.
               </p>
               <p className="mb-4">
-                Expertise That Understands Government
-                With decades of combined experience, our team deeply understands public sector workflows, regulatory needs, 
-                and the challenges government agencies face. We create smart, compliant solutions that integrate seamlessly 
-                with existing systems, reduce disruption, and empower departments to serve citizens better—within budget and 
-                without compromise.
-              </p>
-              <p>
-                Driving Impact and Future Readiness
-                Our solutions produce measurable results—faster processing, reduced costs, and enhanced access to services. 
-                By harnessing emerging tech like AI, cloud computing, and data analytics, we help public institutions not only 
-                meet today’s goals but also future-proof their operations for the evolving landscape of digital governance.
+                Driven by a passion for precision and progress, we deliver end-to-end solutions that meet the dynamic needs of 
+                modern workspaces. Whether it's outfitting a lab, securing a government office, or setting up smart IT systems, 
+                we bring expertise and care to every project. Our expanding presence across India reflects our mission—to make 
+                dependable, high-quality infrastructure accessible to all.
               </p>
             </motion.div>
             <motion.div
@@ -175,26 +167,26 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                title: "Excellence",
-                description: "We strive for excellence in everything we do, from product quality to customer service.",
+                title: "Reliability",
+                description: "Every product is built to last and perform.",
                 icon: <Award className="h-10 w-10" />,
                 color: "text-primary-orange",
               },
               {
                 title: "Innovation",
-                description: "We continuously innovate to create better solutions and stay ahead of industry trends.",
+                description: "We source and supply the latest in tech and biotech.",
                 icon: <TrendingUp className="h-10 w-10" />,
                 color: "text-yellow-accent",
               },
               {
                 title: "Integrity",
-                description: "We conduct our business with honesty, transparency, and ethical practices.",
+                description: "Transparent pricing, ethical practices, and committed service.",
                 icon: <CheckCircle className="h-10 w-10" />,
                 color: "text-green-accent",
               },
               {
-                title: "Collaboration",
-                description: "We believe in the power of teamwork and partnerships to achieve common goals.",
+                title: "Customer-first Approach",
+                description: "Tailored solutions with responsive support.",
                 icon: <Users className="h-10 w-10" />,
                 color: "text-cyan-accent",
               },

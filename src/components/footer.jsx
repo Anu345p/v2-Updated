@@ -143,12 +143,16 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 text-primary-orange flex-shrink-0" />
-                <span className="text-gray-300">542, Shahbad,Daulatpur, Near Khatu Shyam Mandir, Delhi- 110042 India</span>
+                <span className="text-gray-300">Head Office: 542, Shahbad,Daulatpur, Near Khatu Shyam Mandir, Delhi- 110042 India</span>
+              </li>
+              <li className="flex items-start">
+                <MapPin className="mr-2 h-5 w-5 text-primary-orange flex-shrink-0" />
+                <span className="text-gray-300">Regional Office: 141, Reeta Fatak Road, Near Atul Gas Depot, Vidisha(M.P.)- 464001</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-primary-orange flex-shrink-0" />
                 <a href="tel:+91 8103077164" className="text-gray-300 hover:text-primary-orange transition-colors">
-                  <span className="text-gray-300">+91 9069654111</span>
+                  <span className="text-gray-300">+91 9069654111, +91 8103077164</span>
                </a>
               </li>
               <li className="flex items-center">
@@ -158,6 +162,15 @@ export default function Footer() {
                   className="text-gray-300 hover:text-primary-orange transition-colors"
                 >
                   info@colorshadesb.com
+                </a>
+              </li>
+              <li className="flex items-center">
+                <Mail className="mr-2 h-5 w-5 text-primary-orange flex-shrink-0" />
+                <a
+                  href="mailto:colourshadesdlh@gmail.com"
+                  className="text-gray-300 hover:text-primary-orange transition-colors"
+                >
+                  colourshadesdlh@gmail.com
                 </a>
               </li>
             </ul>

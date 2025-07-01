@@ -47,8 +47,10 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
-  }
+  @apply text-foreground bg-no-repeat bg-cover bg-center;
+  background-image: url('/images/background image.jpg');
+}
+
 
   h1,
   h2,

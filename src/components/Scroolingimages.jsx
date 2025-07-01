@@ -4,24 +4,23 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image";
 
 const imageList = [
-  "/images/CDSCO.jpg",
-  "/images/ECI.png",
-  "/images/EPFO.png",
-  "/images/ESIC.jpg",
+  "/images/THOIIMP.jpg",
+  "/images/CSB.jpg",
+  "/images/CSIR.jpg",
+  "/images/WCRMS.webp",
   "/images/FCI.jpg",
-  "/images/LIC.jpg",
-  "/images/REVENUE.png",
-  "/images/NARCOTICS.png",
-  "/images/MPGOV.png",
-  "/images/NHA.png",
-  "/images/CPWD.jpg",
-  "/images/DLH.jpg"
+  "/images/CC.png",
+  "/images/DMEAR.jpg",
+  "/images/DD.png",
+  "/images/NCPCR.png",
+  "/images/EOW.jpg",
+  "/images/NHRC.png",
 ];
 
 export default function ImageMarquee() {
   return (
     <div className="bg-transparent py-6">
-      <Marquee speed={40} gradient={false} pauseOnHover={true}>
+      <Marquee speed={50} gradient={false} pauseOnHover={true}>
         {imageList.map((src, index) => (
           <div key={index} className="mx-6">
             <Image

@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { LoadingProvider } from "@/components/loading-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,12 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
-        <LoadingProvider>
           <Header />
           <main>{children}</main>
           <Footer />
-        </LoadingProvider>
-      </body>
+        </body>
     </html>
   );
 }
